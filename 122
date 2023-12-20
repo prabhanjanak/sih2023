@@ -1,0 +1,5 @@
+# For CPU version
+pip install torch torchvision torchaudio cpuonly -f https://download.pytorch.org/whl/cpu/torch_stable.html
+
+# For GPU version (make sure you have a compatible GPU and CUDA installed)
+pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
